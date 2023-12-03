@@ -1,0 +1,26 @@
+/* Shadow */
+body::before {
+    content: " ";
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: linear-gradient(rgba(18, 16, 16, 0) 50%, rgba(0, 0, 0, 0.25) 50%);
+    z-index: 2;
+    background-size: 100% 2px, 3px 100%;
+    pointer-events: none;
+}
+
+/* Cursor */
+* {
+    cursor: url(https://64.media.tumblr.com/3b5c4d6c67bff4b0939bae275cccff16/008397d74f64ea97-1a/s75x75_c1/81e8050e01191023ef92c8780e37085ebf225f26.gifv), auto !important;
+}
+
+/* Fondo */
+body{
+        background-image: url("https://i.pinimg.com/originals/d8/fd/51/d8fd51a5e6a4f93a7ef668bd95fce632.gif");
+        min-height: 450px;
+        text-align: center;
+}
